@@ -15,22 +15,19 @@ This project is a simple demonstration of ROS 2 (Robot Operating System 2) funct
 
 ## Installation
 
-1. Ensure ROS 2 is installed (Humble or later recommended)  
+1. Ensure ROS 2 is installed (Humble or later recommended)
    Official installation guide: [ROS 2 Installation](https://docs.ros.org/en/humble/Installation.html)
 
 2. Clone this repository
-
 ```bash
 git clone git@github.com:wetting4u/ROS2_mini_project.git
 cd ROS2_mini_project
 
 3. Build the workspace
-
 ```bash
 colcon build
 
 4. Source the workspace setup file
-
 ```bash
 source install/setup.bash
 
@@ -49,7 +46,6 @@ Run Nodes
 ros2 run <package_name> <executable_name>
 
 Example:
-
 ```bash
 ros2 run package_a node_a
 ros2 run package_b node_b
